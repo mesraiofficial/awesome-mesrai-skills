@@ -339,6 +339,9 @@ Because we live in this ecosystem, we curate the best skills we find — from op
 If you use the [Mesrai CLI](https://www.npmjs.com/package/@mesrai/cli), installing a skill is a single command:
 
 ```bash
+# install the CLI from npm (Node.js 20+)
+npm install -g @mesrai/cli
+
 # install our bundled skills into your local agent (Claude Code / Cursor / Codex)
 mesrai skills install
 
